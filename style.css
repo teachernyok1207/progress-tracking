@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(to right, rgba(var(--main-color), 0.8), rgba(var(--main-color), 0.8) ), url(/images/common-bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+*{
+    --n-green: 1, 50, 1;
+    --main-color: var(--n-green);
+}
